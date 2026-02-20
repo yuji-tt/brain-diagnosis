@@ -3,7 +3,7 @@
     "RM": {
       "typeName": "ロードマップ型",
       "icon": "/type-icons/RM.svg",
-      "image": "/type-chars/RM.png",
+      "image": "/type-chars/type1.jpg",
       "catch": "道筋を描き、着実に前へ進む人",
       "core": [
         "目標から逆算して考える",
@@ -74,7 +74,7 @@
     "SD": {
       "typeName": "スタートダッシュ型",
       "icon": "/type-icons/SD.svg",
-      "image": "/type-chars/SD.png",
+      "image": "/type-chars/type2.jpg",
       "catch": "まず動いて道を切り開く人",
       "core": [
         "行動が早い",
@@ -144,7 +144,7 @@
     "LS": {
       "typeName": "ロジック設計型",
       "icon": "/type-icons/LS.svg",
-      "image": "/type-chars/LS.png",
+      "image": "/type-chars/type3.jpg",
       "catch": "理解して組み立てる思考派",
       "core": [
         "論理的に整理できる",
@@ -214,7 +214,7 @@
     "DQ": {
       "typeName": "深掘り探究型",
       "icon": "/type-icons/DQ.svg",
-      "image": "/type-chars/DQ.png",
+      "image": "/type-chars/type4.jpg",
       "catch": "とことん極める研究者タイプ",
       "core": [
         "集中力が高い",
@@ -284,7 +284,7 @@
     "HC": {
       "typeName": "ひらめき創造型",
       "icon": "/type-icons/HC.svg",
-      "image": "/type-chars/HC.png",
+      "image": "/type-chars/type5.jpg",
       "catch": "新しい発想を生み出す人",
       "core": [
         "アイデアが豊富",
@@ -354,7 +354,7 @@
     "MM": {
       "typeName": "ムードメーカー型",
       "icon": "/type-icons/MM.svg",
-      "image": "/type-chars/MM.png",
+      "image": "/type-chars/type6.jpg",
       "catch": "場の空気を動かす人",
       "core": [
         "人を巻き込む力",
@@ -423,7 +423,7 @@
     "IM": {
       "typeName": "没入マスター型",
       "icon": "/type-icons/IM.svg",
-      "image": "/type-chars/IM.png",
+      "image": "/type-chars/type7.jpg",
       "catch": "集中すると止まらない職人",
       "core": [
         "深い集中状態",
@@ -493,7 +493,7 @@
     "SI": {
       "typeName": "静かな洞察型",
       "icon": "/type-icons/SI.svg",
-      "image": "/type-chars/SI.png",
+      "image": "/type-chars/type8.jpg",
       "catch": "観察から本質を見抜く人",
       "core": [
         "観察力が高い",
