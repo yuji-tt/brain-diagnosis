@@ -3,6 +3,7 @@ import { useLocation, Link, useNavigate } from 'react-router-dom'
 import html2canvas from 'html2canvas'
 import AdsPlaceholder from '../components/AdsPlaceholder'
 import StickyShareBar from '../components/StickyShareBar'
+import { TypeVisual } from '../components/TypeVisual'
 
 const COMPATIBILITY = {
     RM: 'SD', SD: 'HC', LS: 'DQ', DQ: 'LS',
@@ -134,11 +135,11 @@ function ResultPage() {
             <div className="result-page">
                 {/* 1. Hero */}
                 <div className="result-hero" id="result-hero">
-                    <img
-                        className="result-hero__icon"
-                        src={mainResult.icon || '/type-icons/default.svg'}
+                    <TypeVisual
+                        image={mainResult.image}
+                        icon={mainResult.icon || '/type-icons/default.svg'}
                         alt={mainResult.typeName}
-                        onError={e => { e.currentTarget.onerror = null; e.currentTarget.src = '/type-icons/default.svg' }}
+                        className="result-hero__icon"
                     />
                     <p className="result-hero__label">あなたの脳タイプ</p>
                     <h1 className="result-hero__type-name" id="type-name">{mainResult.typeName}</h1>
@@ -422,11 +423,11 @@ function ResultPage() {
 
                         {/* Header */}
                         <div className="sc__header">
-                            <img
-                                className="sc__icon"
-                                src={mainResult.icon || '/type-icons/default.svg'}
+                            <TypeVisual
+                                image={mainResult.image}
+                                icon={mainResult.icon || '/type-icons/default.svg'}
                                 alt={mainResult.typeName}
-                                onError={e => { e.currentTarget.onerror = null; e.currentTarget.src = '/type-icons/default.svg' }}
+                                className="sc__icon"
                             />
                             <p className="sc__label">あなたの脳タイプ</p>
                         </div>
